@@ -33,6 +33,7 @@
         }
         nav a:hover {
             text-decoration: underline;
+            background-color: rgba(0, 0, 255, 0.2);
         }
         .container {
             max-width: 1200px;
@@ -95,6 +96,19 @@
             margin-top: 2rem;
             border-top: 1px solid #ddd;
         }
+        a {
+            position: relative;
+            display: inline-block;
+            padding: 10px; /* Expands the clickable area */
+            text-decoration: none;
+            color: black;
+            background-color: rgba(0, 0, 255, 0.1); /* Light background to show the area */
+            border-radius: 5px; /* Soft edges */
+        }
+
+        a:hover {
+            background-color: rgba(0, 0, 255, 0.2);
+        }
     </style>
 </head>
 <body>
@@ -139,7 +153,32 @@
                 <h3><a href="https://www.fiat.com/">Fiat</a></h3>
                 <p>CEO - Sir Olivier François</p>
             </div>
-            <div></div>
+            <div class="car-card">
+                <img src="lamborghini.jpg" alt="Car">
+                <h3><a href="https://www.lamborghini.com/en-en">Lamborghini</a></h3>
+                <p>CEO - Sir Stephan Winkelmann</p>
+            </div>
+            <div class="car-card">
+                <img src="mclaren.png" alt="Car">
+                <h3><a href="https://www.mclaren.com/">Mclaren</a></h3>
+                <p>CEO - Sir Zak Brown</p>
+            </div>
+            <div class="car-card">
+                <img src="ferrari.jpg" alt="Car">
+                <h3><a href="https://www.ferrari.com/en-EN">Ferrari</a></h3>
+                <p>CEO - Sir Benedetto Vigna</p>
+            </div>
+            <div class="car-card">
+                <img src="bugatti.png" alt="Car">
+                <h3><a href="https://www.bugatti.com/">Bugatti</a></h3>
+                <p>CEO - Sir Mate Rimac</p>
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
         </div>
     </div>
     <footer>
